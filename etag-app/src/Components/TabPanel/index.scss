@@ -1,0 +1,21 @@
+.tabPanelContainer{
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.1);
+    padding: 4px 20px;
+    &__list {
+        flex: 1;
+        list-style-type: none;
+        min-width: 100px;
+        max-width: 150px;
+        cursor: pointer;
+        &.selected{
+            background: #EDEDF0;
+            border-radius: 10px;
+            & .panelItem__text{
+                color: #726552;
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.panelItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 45px;
+    & img {
+        height: 20px;
+        width: 20px;
+    }
+    &__text  {
+        font-size: 14px;
+        color: #787885;
+    }
+}
