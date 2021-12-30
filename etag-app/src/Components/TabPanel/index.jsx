@@ -21,7 +21,7 @@ function TabPanel (props){
 							onClick={() => {activateTab(tab, key)}}
 							className={selectedTab === key ? 'tabPanelContainer__list selected' :'tabPanelContainer__list'}
 						>
-							<PanelItem panelName={ tab.panelName } />
+							<PanelItem tabDetails={ tab } />
 						</li>
 					);
 				})}

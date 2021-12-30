@@ -19,3 +19,9 @@
         }
     }
 }
+
+.tabPanelContainer__list:nth-child(1) .panelItem img {
+    filter: contrast(0.5);
+    height: 15px;
+    width: 15px;
+}
