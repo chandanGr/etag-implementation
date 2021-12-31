@@ -1,0 +1,26 @@
+.sizeContainer {
+    & h3 {
+        margin-left: 10px;
+    }
+    & .sizeWrapper {
+        display: flex;
+        max-width: 400px;
+        flex-wrap: wrap;
+    
+        &__item {
+            margin: 5px 10px;
+            list-style-type: none;
+            cursor: pointer;
+            background: #EDEDF0;
+            border-radius: 5px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &.selected {
+                border: 1px solid black;
+            }
+        }
+    }
+}
