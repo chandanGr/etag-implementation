@@ -3,11 +3,11 @@ import React from 'react'
 import './index.scss';
 
 function PanelItem(props) {
-    const { panelName, panelIcon } = props.tabDetails;
+    const { categoryName, categoryIcon } = props.tabDetails;
     return (
         <div className='panelItem'>
-            <img src={panelIcon}/>
-            <p className='panelItem__text'>{panelName}</p>
+            <img src={categoryIcon}/>
+            <p className='panelItem__text'>{categoryName}</p>
         </div>
     )
 }

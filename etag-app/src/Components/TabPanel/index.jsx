@@ -4,7 +4,8 @@ import PanelItem from '../ViewComponents/PanelItem';
 
 import './index.scss'
 
-function TabPanel (props){
+function TabPanel(props) {
+	console.count('tabpanle')
 	const [selectedTab, setSelectedTab] = useState(0);
 
 	const activateTab = (tab, key) => {
@@ -17,7 +18,7 @@ function TabPanel (props){
 				props.tabPanelItems.map((tab, key) => {
 					return (
 						<li
-							key={tab.panelID}
+							key={tab._id}
 							onClick={() => {activateTab(tab, key)}}
 							className={selectedTab === key ? 'tabPanelContainer__list selected' :'tabPanelContainer__list'}
 						>

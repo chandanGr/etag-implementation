@@ -5,7 +5,7 @@ var app = express();
 app.use(cors());
 
 const port = 5000;
-const url = 'mongodb://localhost:27017/';
+const url = 'mongodb://localhost:27017';
 
 MongoClient.connect(url).then((client) => {
 	const connect = client.db('local');
