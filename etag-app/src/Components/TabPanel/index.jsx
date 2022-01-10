@@ -5,7 +5,6 @@ import PanelItem from '../ViewComponents/PanelItem';
 import './index.scss'
 
 function TabPanel(props) {
-	console.count('tabpanle')
 	const [selectedTab, setSelectedTab] = useState(0);
 
 	const activateTab = (tab, key) => {
