@@ -1,0 +1,31 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  align-items: center;
+
+  &__title {
+    margin-left: 10px;
+    color: #726552;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+
+    & img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  &__links {
+    list-style-type: none;
+    display: flex;
+
+    &__item {
+      cursor: pointer;
+      margin-left: 30px;
+      color: #726552;
+    }
+  }
+}
