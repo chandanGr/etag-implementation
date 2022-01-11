@@ -25,7 +25,10 @@
     &__item {
       cursor: pointer;
       margin-left: 30px;
-      color: #726552;
+      & a {
+        color: #726552;
+        text-decoration: none;
+      }
     }
   }
 }
