@@ -1,0 +1,16 @@
+.helpPageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: calc( 100vh - 60px );
+    background: #d5ba9b2e;
+    overflow: hidden;
+
+    &__image {
+        position: absolute;
+        top: 60px;
+        left: -300px;
+    }
+}

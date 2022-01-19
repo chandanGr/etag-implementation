@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 import './index.scss';
 
@@ -17,7 +18,7 @@ function Header() {
       <ul className="headerContainer__links">
           {
               links.map((link) => {
-                return <li className="headerContainer__links__item">{link.label}</li>;
+                return <li className="headerContainer__links__item"><Link to={link.value}>{link.label}</Link></li>;
               })
           }
       </ul>

@@ -1,14 +1,14 @@
 export const links = [
     {
         label: 'Home',
-        value: 'HOME',
+        value: '/',
     },
     {
         label: 'Contact',
-        value: 'CONTACT',
+        value: '/contact',
     },
     {
         label: 'Help',
-        value: 'HELP',
+        value: '/help',
     }
 ]
