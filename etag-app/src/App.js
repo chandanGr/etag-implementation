@@ -7,6 +7,7 @@ import HelpPage from "./Pages/HelpPage";
 import HomePage from "./Pages/HomePage";
 import ProductDetailsPage from "./Pages/ProductDetailsPage";
 
+// comment 1
 function App() {
   return (
     <div>
